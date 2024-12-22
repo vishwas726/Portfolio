@@ -77,13 +77,13 @@ const Header = () => {
         </div>
       </div>
       <div className="max-w-[1200px] mx-auto">
-        <div className="flex me-5 py-6 justify-between">
-          <div className="flex space-x-2 items-center">
+        <div className="flex me-[18px] md:me-5 py-6 justify-between">
+          <div className="flex items-center w-fit">
             {/* <img src="/Logo.png" alt="" className="translate-x-[16px] -translate-y-[5px] w-[40px] mix-blend-hard-light filter invert-[100%] sepia-[100%] saturate-[500%] hue-rotate-[200deg]" /> */}
             <img
               src="/Logo.png"
               alt=""
-              className="translate-x-[23px] -translate-y-[5px] w-[60px] mix-blend-hard-light filter invert"
+              className="translate-x-[14px] -translate-y-[5px] w-[60px] mix-blend-hard-light filter invert"
             />
 
             <span className="text-[20px] font-bold">ishwas_726</span>
@@ -152,7 +152,7 @@ const Header = () => {
             src="/menu.svg"
             onClick={() => setHeaderPopup(true)}
             alt=""
-            className=" md:hidden cursor-pointer w-[52px]"
+            className=" md:hidden cursor-pointer w-[32px]"
           />
         </div>
       </div>

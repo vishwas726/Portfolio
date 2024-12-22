@@ -32,7 +32,7 @@ const Home = () => {
       <div className="absolute -top-10 -z-10 opacity-20 left-0 md:left-[10rem] blur-[70px] rotate-[-40deg] w-[267px] sm:h-[900px] h-[400px] rounded-full bg-gradient-to-r from-[#5454D4] to-[#2C2C6E]"></div>
 
       <div className="mt-14">
-        <section className="hero w-full  ">
+        <section className="hero w-full overflow-y -hidden  ">
           <div className="max-w-[1200px] justify-between flex md:px-5 mx-5 lg:mx-auto flex-col-reverse  lg:flex-row">
             <div className="left mt-10  text-white">
               <h1 className="sm:leading-[4.8rem] font-bold text-[54px] leading-[4rem] sm:text-[80px]">
