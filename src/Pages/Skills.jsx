@@ -2,6 +2,7 @@ import React from 'react'
 
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaPhp, FaReact, FaNodeJs } from 'react-icons/fa'
 import { SiMysql, SiMongodb, SiExpress } from 'react-icons/si'
+import Contact from '../Components/Contact'
 
 const Skills = () => {
   return (
@@ -120,6 +121,9 @@ const Skills = () => {
               </div>
             </div>
           </div>
+
+      <Contact/>
+
         </section>
   )
 }

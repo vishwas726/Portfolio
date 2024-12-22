@@ -9,10 +9,10 @@ const Header = () => {
 
   const [headerPopup, setHeaderPopup] = useState(false);
   return (
-    <div className=" text-white  max-w-full overflow-x-hidden ">
-
-      <div className={`HeaderPopup z-[100] ${
-          headerPopup ? "block right-0" : "right-[-5000px] "
+    <div className=" text-white relative   ">
+      <div
+        className={`h idden HeaderPopup z-[100] ${
+          headerPopup ? "block left-0" : "left-[-5000px]  "
         }  transition-all ease-in-out duration-200  absolute bg-[#000000e2]  h-[100vh]  w-[100%]`}
       >
         <div className="links gap-y-4 flex flex-col h-[100vh] justify-center items-center text-[#ffffff9d] ">
@@ -140,17 +140,20 @@ const Header = () => {
             </Link>
           </div>
 
+          <a className="lg:block hidden" href="mailto:vishwaslandge2004@gmail.com?subject=Hiring Inquiry&body=Hi Vishwas, I am interested in discussing opportunities with you.">
+            {" "}
+            <div className="absolute group-hover:w-full w-0 transition-all duration-200 z-10 h-full left-0 top-0 bg-blue-600"></div>
+            <button className=" group overflow-hidden relative w-[157px] h-[44px] border rounded-lg transition-all duration-200 hover:border-none hover:bg-[#5454d4]">
+              <div className="absolute group-hover:w-full w-0 transition-all duration-200 z-10 h-full left-0 top-0 bg-blue-600"></div>
+              <span className="z-20 relative"> Contact Me</span>
+            </button>
+          </a>
           <img
             src="/menu.svg"
             onClick={() => setHeaderPopup(true)}
             alt=""
-            className=" md:hidden cursor-pointer w-[24px]"
+            className=" md:hidden cursor-pointer w-[52px]"
           />
-                         <a href="mailto:vishwaslandge2004@gmail.com?subject=Hiring Inquiry&body=Hi Vishwas, I am interested in discussing opportunities with you."> <div className="absolute group-hover:w-full w-0 transition-all duration-200 z-10 h-full left-0 top-0 bg-blue-600"></div>
-                         <button className="lg:block hidden group overflow-hidden relative w-[157px] h-[44px] border rounded-lg transition-all duration-200 hover:border-none hover:bg-[#5454d4]">
-            <div className="absolute group-hover:w-full w-0 transition-all duration-200 z-10 h-full left-0 top-0 bg-blue-600"></div>
-            <span className="z-20 relative"> Contact Me</span>
-          </button></a>
         </div>
       </div>
     </div>
