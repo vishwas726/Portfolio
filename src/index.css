@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color: #19191B;
+    overflow-x: hidden;
+}
+*{
+    font-family: "Nunito Sans", Regular;
+}
