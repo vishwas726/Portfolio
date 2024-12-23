@@ -239,11 +239,11 @@ const Home = () => {
             <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-10 gap-y-10 w-full mt-20">
               <div className="projectWrapper before:contrast-[''] before:absolute before:bg-[#0000ffaf] group before:hover:w-full before:transition-all before:duration-200 relative before:opacity-30 before:w-0 before:top-0 before:left-0 before:h-full col-span-2">
                 <div className="projectcontent absolute bg-[#00000054] w-full h-full p-5 ">
-                  <h5 className="font-bold text-[30px] md:text-[46px]">
+                  <h5 className="leading-[1.7rem] md:leading-normal font-bold text-[30px] md:text-[46px]">
                     Vacation Rental Platform
                   </h5>
                   <p></p>
-                  <button className="bg-blue-600 mt-6 font-bold px-4 py-2 rounded-lg">
+                  <button className="bg-blue-600 mt-2 md:mt-6 font-bold px-4 py-2 rounded-lg">
                     See More
                   </button>
                 </div>
@@ -263,11 +263,11 @@ const Home = () => {
 
               <div className="projectWrapper before:contrast-[''] before:absolute before:bg-[#0000ffaf] group before:hover:w-full before:transition-all before:duration-200 relative before:opacity-30 before:w-0 before:top-0 before:left-0 before:h-full col-span-2 mt-10">
                 <div className="projectcontent absolute bg-[#00000054] w-full h-full p-5 ">
-                  <h5 className="font-bold text-[30px] md:text-[46px]">
+                  <h5 className="leading-[1.7rem] md:leading-normal font-bold text-[30px] md:text-[46px]">
                     Trading Plateform
                   </h5>
                   <p></p>
-                  <button className="bg-blue-600 mt-6 font-bold px-4 py-2 rounded-lg">
+                  <button className="bg-blue-600 mt-2 md:mt-6 font-bold px-4 py-2 rounded-lg">
                     See More
                   </button>
                 </div>
@@ -284,11 +284,11 @@ const Home = () => {
 
               <div className="projectWrapper before:contrast-[''] before:absolute before:bg-[#0000ffaf] group before:hover:w-full before:transition-all before:duration-200 relative before:opacity-30 before:w-0 before:top-0 before:left-0 before:h-full col-span-2 mt-20">
                 <div className="projectcontent absolute bg-[#00000054] w-full h-full p-5 ">
-                  <h5 className="font-bold text-[30px] md:text-[46px]">
+                  <h5 className="leading-[1.7rem] md:leading-normal font-bold text-[30px] md:text-[46px]">
                     Interactive Online Store
                   </h5>
                   <p></p>
-                  <button className="bg-blue-600 mt-6 font-bold px-4 py-2 rounded-lg">
+                  <button className="bg-blue-600 mt-2 md:mt-6 font-bold px-4 py-2 rounded-lg">
                     See More
                   </button>
                 </div>
@@ -305,11 +305,11 @@ const Home = () => {
               <div className=""></div>
               <div className="projectWrapper before:contrast-[''] before:absolute before:bg-[#0000ffaf] group before:hover:w-full before:transition-all before:duration-200 relative before:opacity-30 before:w-0 before:top-0 before:left-0 before:h-full col-span-2 mt-10">
                 <div className="projectcontent absolute bg-[#00000054] w-full h-full p-5 ">
-                  <h5 className="font-bold text-[30px] md:text-[46px]">
+                  <h5 className="leading-[1.7rem] md:leading-normal font-bold text-[30px] md:text-[46px]">
                     Travel Together Platform
                   </h5>
                   <p></p>
-                  <button className="bg-blue-600 mt-6 font-bold px-4 py-2 rounded-lg">
+                  <button className="bg-blue-600 mt-2 md:mt-6 font-bold px-4 py-2 rounded-lg">
                     See More
                   </button>
                 </div>
@@ -325,11 +325,11 @@ const Home = () => {
 
               <div className="projectWrapper before:contrast-[''] before:absolute before:bg-[#0000ffaf] group before:hover:w-full before:transition-all before:duration-200 relative before:opacity-30 before:w-0 before:top-0 before:left-0 before:h-full col-span-2 mt-20">
                 <div className="projectcontent absolute bg-[#00000054] w-full h-full p-5 ">
-                  <h5 className="font-bold text-[30px] md:text-[46px]">
+                  <h5 className="leading-[1.7rem] md:leading-normal font-bold text-[30px] md:text-[46px]">
                     Educational Institution Website
                   </h5>
                   <p></p>
-                  <button className="bg-blue-600 mt-6 font-bold px-4 py-2 rounded-lg">
+                  <button className="bg-blue-600 mt-2 md:mt-6 font-bold px-4 py-2 rounded-lg">
                     See More
                   </button>
                 </div>
@@ -346,11 +346,11 @@ const Home = () => {
               <div className=""></div>
               <div className="projectWrapper before:contrast-[''] before:absolute before:bg-[#0000ffaf] group before:hover:w-full before:transition-all before:duration-200 relative before:opacity-30 before:w-0 before:top-0 before:left-0 before:h-full col-span-2 mt-10">
                 <div className="projectcontent absolute bg-[#00000054] w-full h-full p-5 ">
-                  <h5 className="font-bold text-[30px] md:text-[46px]">
+                  <h5 className="leading-[1.7rem] md:leading-normal font-bold text-[30px] md:text-[46px]">
                     Interactive Music Player
                   </h5>
                   <p></p>
-                  <button className="bg-blue-600 mt-6 font-bold px-4 py-2 rounded-lg">
+                  <button className="bg-blue-600 mt-2 md:mt-6 font-bold px-4 py-2 rounded-lg">
                     See More
                   </button>
                 </div>
