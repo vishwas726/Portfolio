@@ -5,6 +5,8 @@ const Projects = () => {
   return (
     <section className="MyProects mt-10 w-full relative pb-20">
       <div className="absolute -top-10 z-10 opacity-20 left-0 md:left-[10rem] blur-[70px] rotate-[-40deg] w-[267px] sm:h-[300px] h-[200px] rounded-full bg-gradient-to-r from-[#5454D4] to-[#2C2C6E]"></div>
+     <img src="/Vector2.svg" alt=""  className="absolute right-10 top-16 opacit y-85"/>
+     <img src="/Vector1.svg" alt=""  className="absolute left-10 top-32 md:top-16 opacit y-85"/>
 
       <div className="max-w-[1200px] mx-6 xl:mx-auto text-white">
         <h2 className="mx-auto text-center font-bold text-[45px] sm:text-[62px]">
